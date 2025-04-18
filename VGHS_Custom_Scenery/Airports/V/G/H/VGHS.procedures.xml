@@ -1,0 +1,60 @@
+<!--
+ ~ The output of flightgear-sid-star-manager Copyright (c) 2024 by jojo2357 licensed under CC BY 4.0.
+ ~ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+ -->
+<ProceduresDB build="By jojo2357, with FAA data.">
+	<Airport ICAOcode="VGZR">
+		<Sid Name="IKOGU1A" Runways="14">
+			<Sid_Waypoint>
+				<Name>DET(31)</Name><!-- TF -->
+				<Type>Normal</Type>
+				<Latitude>51.303889</Latitude>
+				<Longitude>0.597222</Longitude>
+				<Speed>210</Speed>
+				<Altitude>03200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint>
+				<Name>DET(D29)</Name><!-- TF -->
+				<Type>Normal</Type>
+				<Latitude>51.303889</Latitude>
+				<Longitude>0.597222</Longitude>
+				<Speed>250</Speed>
+				<Altitude>04000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint>
+				<Name>ACORN</Name><!-- TF -->
+				<Type>Normal</Type>
+				<Latitude>51.255278</Latitude>
+				<Longitude>0.196111</Longitude>
+				<Speed>250</Speed>
+				<Altitude>05000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Transition Name="LAM">
+				<SidTr_Waypoint>
+					<Name>LAM</Name><!-- TF -->
+					<Type>Normal</Type>
+					<Latitude>51.646</Latitude>
+					<Longitude>0.152</Longitude>
+					<Speed>250</Speed>
+					<Altitude>06000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+	</Airport>
+</ProceduresDB>
